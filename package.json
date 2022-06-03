@@ -1,0 +1,31 @@
+{
+  "name": "ts-check-example",
+  "version": "1.0.0",
+  "description": "An example of @ts-check.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit --allowJs --checkJs --strict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manaten/ts-check-example.git"
+  },
+  "keywords": [
+    "example",
+    "ts-check"
+  ],
+  "author": "manaten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manaten/ts-check-example/issues"
+  },
+  "homepage": "https://github.com/manaten/ts-check-example#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "^12.1.6"
+  }
+}
